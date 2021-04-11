@@ -1,0 +1,25 @@
+/*Estilo Navbar*/
+.navbar{
+    background-color: black !important;
+}
+
+.logo-navbar{
+
+    width: 200px;
+    height: auto;
+}
+
+.nav-link{
+
+    color: darkcyan;
+    font-weight: bold ;
+}
+.link__navbar{
+
+    margin-left: 600px;
+}
+
+
+.icono_login{
+    margin-right: 5px;
+}
