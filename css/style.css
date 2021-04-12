@@ -1,3 +1,7 @@
+:root{
+    --color_Fondo_sign_up: #e5e5e5;
+}
+
 /*Estilo Navbar*/
 .navbar{
     background-color: black !important;
