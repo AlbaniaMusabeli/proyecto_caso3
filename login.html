@@ -51,44 +51,38 @@
     </nav>
   </header>
 
-  <main id="main_login" class="container-fluid">
-    <div class="row mt-5">
-      <div class="col-12 col-md-8 col-lg-4 mx-auto">
-        <div class="card">
+    <main id="main_login" class=" container-fluid">
+        <p class="h1 text-center mt-3"><i class="icono_form_login fas fa-id-card-alt "></i></p>
+        <p class="h2 text-center mt-2">Inicio de sesión</p>
+        </div>
+        <div class="row mt-3 border ">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto border border-dark rounded p-3">
+                <form action="" class="formulario_login" id="formulario">
 
-          <div class="card-header bg-dark bg-gradient text-white text-center">
-            <span class="card-title">Bienvenido al Inicio de Sesión</span>
-          </div>
+                    <div class="formulario__grupo" id="grupo__password">
+                        <label for="usuario" class="formulario__label_login">Usuario</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input_login" name="usuario" id="usuario"
+                                placeholder="Nombre de usuario">
+                        </div>
+                    </div>
 
-          <div class="card-body mx-auto">
-            <form action="" class="formulario_login" id="formulario">
+                    <div class="formulario__grupo" id="grupo__usuario">
+                        <label for="password" class="formulario__label_login">Contraseña</label>
+                        <div class="formulario__grupo-input">
+                            <input type="password" class="formulario__input_login" name="password" id="password"
+                                placeholder="Contraseña">
+                        </div>
+                    </div>
 
-              <div class="formulario__grupo" id="grupo__password">
-                <label for="usuario" class="formulario__label_login">Usuario</label>
-                <div class="formulario__grupo-input">
-                  <input type="text" class="formulario__input_login" name="usuario" id="usuario" placeholder="Nombre de usuario">
-                </div>
-              </div>
-
-              <div class="formulario__grupo" id="grupo__usuario">
-                <label for="password" class="formulario__label_login">Contraseña</label>
-                <div class="formulario__grupo-input">
-                  <input type="password" class="formulario__input_login" name="password" id="password" placeholder="Contraseña">
-                </div>
-              </div>
-
-            </form>
-          </div>
-
-          <div class="card-footer d-grid gap-2">
-            <button class="btn btn-info" id="guardar-btn" type="button">Ingresar</button>
+                    <div class="formulario__boton mx-auto">
+                        <button type="submit" class="btn btn-info" type="submit" value="Submit">Iniciar Sesión</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
-
-        </div>
-      </div>
-    </div>
-  </main>
+    </main>
 
   <footer>
 
