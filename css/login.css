@@ -3,14 +3,12 @@
     background-color: #e5e5e5;
 }
 
-.card-body{
-    margin: 0;
-
-}
 .formulario_login {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    
+    
 }
 
 .formulario__label_login{
@@ -23,7 +21,7 @@
 .formulario__input_login{
     width: 100%;
     background:#fff;
-    border: 3px solid grey;
+    border: 3px solid transparent;
     border-radius: 3px;
     height: 45px;
     line-height: 45px;
@@ -36,4 +34,8 @@
     border: 3px solid #0075ff;
     outline: none;
     box-shadow: 3px 0px 30px rgba(163,163,163,0.4);
+}
+.icono_form_login{
+    color: #51c4d3;
+    font-size: 50px;
 }
