@@ -13,3 +13,24 @@ img{
 
     border-radius: 20px;
 }
+
+.fotos_detalle{
+    width: 350px;
+    height: auto;
+}
+
+.fila_servicios{
+    padding-top: 20px;
+}
+
+.item{
+
+    margin-left: 70px;
+}
+
+.lista{
+    
+    padding-top: 50px;
+}
+
+    
