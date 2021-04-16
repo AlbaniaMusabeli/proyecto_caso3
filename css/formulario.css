@@ -25,6 +25,10 @@
     gap: 20px;
 }
 
+#titulo__formulario{
+    font-weight: bold;
+}
+
 .formulario__label{
     display: block;
     font-weight: 700;
@@ -97,3 +101,25 @@
         grid-column: span 1;
     }
 }
+
+/*Formulario Contacto*/
+#titulo__contacto{
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px dotted #000;
+}
+
+.contenedor{
+    padding-top: 50px;
+}
+
+.link__contacto{
+    color: black;
+    float: left;
+    font-family: serif;
+    font-size: 22px;
+    margin-left: 23px;
+    margin-right: 10px;
+}
+
+
