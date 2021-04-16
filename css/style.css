@@ -41,13 +41,26 @@
 
   height: 100px;
   width: 100px;
-  background-color: black;
+  background-color: darkcyan;
   border-radius: 50%;
   display: inline-block;
-
+  
 }
 .servicios_img{
     color: white;
     font-size: 50px;
     margin-top: 20px;
+}
+
+/*Estilos Buscador de servicios*/
+
+/*Select*/
+.form-select{
+    margin-top:45px;
+    margin-bottom: 40px;
+}
+
+#btn_servicios{
+    background-color: darkcyan;
+    border-color: darkcyan;
 }
