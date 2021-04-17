@@ -1,9 +1,13 @@
 :root{
-    --color_Fondo_sign_up: #e5e5e5;
+    --color_Fondo_sign_up: #f4f6ff;
 }
 
 /*Estilos Sign Up*/
 #body_signup{
+    background-color: var(--color_Fondo_sign_up);
+}
+
+#body_contacto{
     background-color: var(--color_Fondo_sign_up);
 }
 
