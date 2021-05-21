@@ -1,6 +1,7 @@
 :root{
     font-family:'Roboto' !important;
     --color_fondo: #f4f6ff;
+
 }
 
 #titulo_navbar{
@@ -39,8 +40,8 @@
 }
 
 /* Estilos Servicios*/
-#body{
-    background-color: var(--color_fondo);
+body{
+    background-color: var(--color_fondo) ;
 }
 #servicios{
     
@@ -164,7 +165,6 @@ span{
 .link_git:hover i{
     color: darkcyan;
 }
-
 
 /****************************************************ESTILOS LOGIN*/
 
@@ -490,7 +490,7 @@ img{
     padding-top: 50px;
 }
 
-/*************************************************Formulario Contacto*/
+/*Formulario Contacto*/
 #titulo__contacto{
     text-align: center;
     font-size: 45px;
@@ -509,5 +509,3 @@ img{
     margin-left: 23px;
     margin-right: 10px;
 }
-
-
