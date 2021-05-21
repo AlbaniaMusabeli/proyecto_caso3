@@ -18,6 +18,7 @@ const campos = {
     nombre: false,
     usuario: false,
     password: false,
+    correo: false
 
 }
 
@@ -116,7 +117,7 @@ formulario.addEventListener("submit", (e) => {
     //validar si todos los input estan correctos
     const terminos = document.querySelector("#terminos")
 
-    if (campos.usuario && campos.nombre && campos.password && terminos.checked) {
+    if (campos.usuario && campos.nombre && campos.password && campos.correo && terminos.checked) {
         formulario.reset();
 
         Swal.fire({
@@ -133,7 +134,7 @@ formulario.addEventListener("submit", (e) => {
     
 
     }
-    else if (campos.usuario && campos.nombre && campos.password) {
+    else if (campos.usuario && campos.nombre && campos.password && campos.correo) {
         Swal.fire({
             icon: 'info',
             title: 'Debes aceptar los terminos y condiciones',
