@@ -50,7 +50,7 @@
   <main>
     <div class="contenedor_contacto container mt-5">
       <h2 id="titulo__contacto">Contáctanos</h2>
-      <br></br>
+      <br>
       <div class="row">
         <div class="col-md-6">
 
@@ -92,9 +92,10 @@
 
         <div class="col-md-1"></div>
 
-        <div class="col-md-5">
-          <br><br><br><br>
-          <p><i class="fa fa-map-marker"></i> Calle genial 123, Viña de mar</p>
+        <div class="col-md-5 mb-4">
+          <div id="map"></div>
+          <br>
+          <p><i class="fa fa-map-marker"></i> Libertad 123, Viña de Mar</p>
           <p><i class="fa fa-phone"></i> +56 32 247856310</p>
           <p><i class="fa fa-envelope"></i> daytona@automotriz.cl</p>
 
@@ -123,6 +124,8 @@
     crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="js/contacto.js"></script>
+  <script src="js/google_maps.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 
 </html>
