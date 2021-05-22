@@ -1,7 +1,7 @@
 //Objeto expresiones regulares
 const expresiones = {
-    usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-    password: /^.{4,12}$/, // 4 a 12 caracteres.
+    usuario: /^[a-zA-Z0-9\_\-]{5,16}$/, // Letras, numeros, guion y guion_bajo
+    password: /^.{6,12}$/, // 4 a 12 caracteres.
 }
 
 const formulario = document.querySelector("#formulario_login");
