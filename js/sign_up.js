@@ -6,9 +6,9 @@ const formulario = document.querySelector("#formulario");
 const inputs = document.querySelectorAll("#formulario input")
 
 const expresiones = {
-    usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-    nombre: /^[a-zA-ZÀ-ÿ\s]{2,40}$/, // Letras y espacios, pueden llevar acentos.
-    password: /^.{4,12}$/, // 4 a 12 digitos.
+    usuario: /^[a-zA-Z0-9\_\-]{5,16}$/, // Letras, numeros, guion y guion_bajo
+    nombre: /^[a-zA-ZÀ-ÿ\s]{5,40}$/, // Letras y espacios, pueden llevar acentos.
+    password: /^.{6,12}$/, // 6 a 12 caracteres.
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, //formato correo
 }
 
@@ -74,7 +74,7 @@ const validarInput = (expresion,input, campo) => {
     }
 }
 
-//Funcon de de validacion de contraseñas iguales
+//Funcion de de validacion de contraseñas iguales
 const validarPassword2 = () =>{
 
     let inputPasswod1 = document.querySelector("#password");
